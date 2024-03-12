@@ -1,1 +1,1 @@
-# BMI-Calculator
+# Basal Metabolic Rate calculator

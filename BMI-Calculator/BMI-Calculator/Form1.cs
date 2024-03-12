@@ -7,11 +7,6 @@ namespace BMI_Calculator
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -35,10 +30,14 @@ namespace BMI_Calculator
 
             double calories = 0.0;
             if (radioButton1.Checked)
-            {
+
                 calories = (10 * weight) + (6.25 * height) - (5 * age) + 5;
-            }
-            textBox1.Text = "Your calories intake should be " + "\n"+ calories.ToString("#.#")+" Kcal.";
+
+            else if (radioButton2.Checked)
+
+                calories = (10 * weight) + (6.25 * height) - (5 * age) - 161;
+
+            textBox1.Text = "Calories intake: " + Environment.NewLine + calories.ToString("#.#") + " Kcal.";
         }
     }
 }

@@ -73,7 +73,7 @@
             weight.Size = new Size(131, 26);
             weight.TabIndex = 2;
             weight.Text = "Weight (cm)";
-            weight.Click += label1_Click;
+            //weight.Click += label1_Click;
             // 
             // Height
             // 
@@ -87,7 +87,7 @@
             // button1
             // 
             button1.ForeColor = Color.DimGray;
-            button1.Location = new Point(145, 323);
+            button1.Location = new Point(145, 344);
             button1.Name = "button1";
             button1.Size = new Size(112, 34);
             button1.TabIndex = 4;
@@ -122,9 +122,9 @@
             textBox1.BackColor = Color.FromArgb(32, 32, 32);
             textBox1.BorderStyle = BorderStyle.None;
             textBox1.ForeColor = Color.White;
-            textBox1.Location = new Point(12, 363);
+            textBox1.Location = new Point(64, 397);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(357, 30);
+            textBox1.Size = new Size(265, 30);
             textBox1.TabIndex = 7;
             // 
             // panel1

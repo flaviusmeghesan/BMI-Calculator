@@ -30,8 +30,15 @@ namespace BMI_Calculator
         private void button1_Click(object sender, EventArgs e)
         {
             double age = Convert.ToDouble(textBox2.Text);
-            double heigt = Convert.ToDouble(textBox4.Text);
+            double height = Convert.ToDouble(textBox4.Text);
             double weight = Convert.ToDouble(textBox3.Text);
+
+            double calories = 0.0;
+            if (radioButton1.Checked)
+            {
+                calories = (10 * weight) + (6.25 * height) - (5 * age) + 5;
+            }
+            textBox1.Text = "Your calories intake should be " + "\n"+ calories.ToString("#.#")+" Kcal.";
         }
     }
 }

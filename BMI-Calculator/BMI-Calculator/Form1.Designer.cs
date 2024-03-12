@@ -121,9 +121,10 @@
             // 
             textBox1.BackColor = Color.FromArgb(32, 32, 32);
             textBox1.BorderStyle = BorderStyle.None;
-            textBox1.Location = new Point(69, 363);
+            textBox1.ForeColor = Color.White;
+            textBox1.Location = new Point(12, 363);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(259, 30);
+            textBox1.Size = new Size(357, 30);
             textBox1.TabIndex = 7;
             // 
             // panel1
@@ -141,9 +142,9 @@
             label1.ForeColor = Color.Black;
             label1.Location = new Point(99, 24);
             label1.Name = "label1";
-            label1.Size = new Size(190, 26);
+            label1.Size = new Size(197, 26);
             label1.TabIndex = 0;
-            label1.Text = "BMI CALCULATOR";
+            label1.Text = "BMR CALCULATOR";
             // 
             // textBox2
             // 
